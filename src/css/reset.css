@@ -1,0 +1,72 @@
+/* Сброс стилей для всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Сброс для типографических элементов */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+address,
+code,
+em,
+img,
+small,
+strong,
+sub,
+sup {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+}
+
+/* Сброс для списка элементов */
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Сброс для таблиц */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Сброс для форм */
+input,
+button,
+textarea,
+select {
+    /* font: inherit; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* border: none; */
+    outline: none;
+    background: none;
+}
+
+/* Сброс для ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Сброс для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
